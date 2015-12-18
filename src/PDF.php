@@ -258,7 +258,7 @@ class PDF implements PDFContract
     {
         if(!is_null($this->configPath)) {
             return realpath($this->configPath);
-        } elseif(file_exists($phantomConfiguration = base_path() . DIRECTORY_SEPARATOR . 'SunPdf.js')) {
+        } elseif(function_exists('base_path') and file_exists($phantomConfiguration = base_path() . DIRECTORY_SEPARATOR . 'SunPdf.js')) {
             return realpath($phantomConfiguration);
         } else {
             return realpath(__DIR__.'/../phantom.js');

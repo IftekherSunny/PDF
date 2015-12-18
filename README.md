@@ -50,7 +50,7 @@ $pdf = new Sun\PDF("/path/to/SunPdf.js");
 
 Please, click [This Link](http://phantomjs.org/api/webpage/property/paper-size.html) to know about all the configuration of the PhantomJS.
  
-If you do not wish to pass HTML codes as plain string, you can pass your HTML/PHP file into all the method of the Sun PDF. To use default template engine features you need to setup everything before use. All u have to do for setup is - 
+If you do not wish to pass HTML codes as plain string, you can pass your HTML/PHP file into all the method of the Sun PDF. To use default template engine features you need to setup everything before use. All you have to do for setup is - 
 
 ```php
 $pdf = new Sun\PDF(null, "/path/to/views");
