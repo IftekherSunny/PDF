@@ -54,7 +54,7 @@ If you do not wish to pass HTML codes as plain string, you can pass your HTML/PH
 
 ```php
     $pdf = new Sun\PDF(null, /path/to/views);
-``
+```
 
 I used Twig template engine, click [This Link](http://twig.sensiolabs.org/) to know about Twig template engine.
 
