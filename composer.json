@@ -1,0 +1,24 @@
+{
+  "name": "sun/pdf",
+  "description": "Sun PDF is the pdf generating tools for the serious PHP developers.",
+  "keywords": ["sun", "planet", "php", "pdf", "html to pdf", "twig", "dompdf", "fpdf"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Iftekher Sunny",
+      "email": "iftekhersunny@hotmail.com",
+      "homepage": "http://iftekhersunny.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "symfony/http-foundation": "2.7.*",
+    "symfony/process": "2.7.*",
+    "twig/twig": "~1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sun\\": "src/"
+    }
+  }
+}
