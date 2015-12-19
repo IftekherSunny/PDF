@@ -1,4 +1,6 @@
 ## Sun PDF
+
+[![Total Downloads](https://poser.pugx.org/sun/pdf/downloads)](https://packagist.org/packages/sun/pdf) [![Latest Stable Version](https://poser.pugx.org/sun/pdf/v/stable)](https://packagist.org/packages/sun/pdf) [![Latest Unstable Version](https://poser.pugx.org/sun/pdf/v/unstable)](https://packagist.org/packages/sun/pdf) [![License](https://poser.pugx.org/sun/pdf/license)](https://packagist.org/packages/sun/pdf)
   
 Sun PDF is the pdf generating tools for the serious PHP developers.
 
