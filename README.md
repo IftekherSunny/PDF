@@ -20,7 +20,7 @@ composer require sun/pdf
  
 ## Basic Uses
 
-#### Creating PDF
+#### Downloading PDF
 
 ```php
 $pdf = new Sun\PDF;
